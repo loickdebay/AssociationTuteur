@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="172.0" prefWidth="226.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="IHM.FourthWindowController">
+   <children>
+      <Label alignment="CENTER" prefHeight="67.0" prefWidth="225.0" text="Choix de la matière" />
+      <ComboBox fx:id="matiereselect" prefHeight="8.0" prefWidth="226.0" />
+      <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+         <children>
+            <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#confirmer" text="confirmer" textAlignment="CENTER" />
+         </children>
+      </HBox>
+   </children>
+</VBox>
